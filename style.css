@@ -19,3 +19,40 @@ button{
     background-color: blue;
 }
 
+#green:hover{
+    color: green;
+    font-weight: bold;
+    background-color: white;
+     border: 3px solid GREEN;
+}
+
+#red:hover{
+    color: red;
+    font-weight: bold;
+    background-color: white;
+     border: 3px solid red;
+}
+
+#blue:hover{
+    color: blue;
+    font-weight: bold;
+    background-color: white;
+     border: 3px solid blue;
+}
+
+h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:59px auto;
+
+}
+
+
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:
+}
