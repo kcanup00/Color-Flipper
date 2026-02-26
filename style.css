@@ -1,4 +1,4 @@
-button{
+/* button{
     border: 3px solid black;
     border-radius: 5px;
     width: 100px;
@@ -55,4 +55,87 @@ h3{
     justify-content: space-evenly;
     align-items: center;
     margin:
+} */
+
+
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f4f4;
+  transition: background 0.5s ease;
+}
+
+/* Main container */
+.container {
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+/* Button container */
+.btn-group {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Buttons */
+button {
+  padding: 12px 30px;
+  border-radius: 10px;
+  border: 2px solid #000;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Specific button colors */
+#green {
+  background-color: green;
+  color: #fff;
+}
+
+#red {
+  background-color: red;
+  color: #fff;
+}
+
+#blue {
+  background-color: blue;
+  color: #fff;
+}
+
+#random {
+  background-color: #e0e0e0;
+  color: #000;
+}
+
+/* Hover effect */
+button:hover {
+  transform: scale(1.08);
+  opacity: 0.9;
+}
+
+/* Click effect */
+button:active {
+  transform: scale(0.95);
 }
